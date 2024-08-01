@@ -1,9 +1,11 @@
+import Navbar from "./components/Navbar/Navbar"
+
 function App() {
   // const ipcHandle = () => window.electron.ipcRenderer.send('ping')
 
   return (
     <>
-      <h1>Hola amigo</h1>
+      <Navbar/>
     </>
   )
 }
